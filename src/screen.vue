@@ -73,7 +73,9 @@ export default /*#__PURE__*/ {
 
 <template>
   <div id="screen">
-      <slot id="content" />
+    <div id="content" >
+      <slot class="slot" />
+    </div>
   </div>
 </template>
 
@@ -84,7 +86,7 @@ export default /*#__PURE__*/ {
   height: 100vh;
 }
 
-#content {
+#content, .slot {
   width: 100%;
   height: 100%;
 }
