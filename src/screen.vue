@@ -73,9 +73,7 @@ export default /*#__PURE__*/ {
 
 <template>
   <div id="screen">
-    <div id="content">
-      <slot />
-    </div>
+      <slot id="content" />
   </div>
 </template>
 

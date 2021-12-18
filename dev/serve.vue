@@ -12,6 +12,8 @@ export default Vue.extend({
 
 <template>
   <div id="app">
-    <screen />
+    <Screen>
+      <h1> Hello </h1>
+    </Screen>
   </div>
 </template>
