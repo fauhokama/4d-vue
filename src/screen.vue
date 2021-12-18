@@ -56,8 +56,6 @@ export default /*#__PURE__*/ {
       }
     },
     move(direction) {
-      console.log(direction);
-
       const halfTime = this.time / 2;
       if (this[direction]) {
         document.body.style.transition = `background-color ${this.time}ms`;
