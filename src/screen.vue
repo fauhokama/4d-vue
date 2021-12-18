@@ -42,10 +42,10 @@ export default /*#__PURE__*/ {
     doCommand(e) {
       switch (e.key) {
         case "ArrowUp":
-          this.move("left");
+          this.move("up");
           break;
         case "ArrowDown":
-          this.move("left");
+          this.move("down");
           break;
         case "ArrowLeft":
           this.move("left");
